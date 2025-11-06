@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 function lookupIP() {
   const ip = document.getElementById('ipInput').value.trim();
-  const token = 'YOUR_TOKEN_HERE'; // ← ここにipinfo.ioのAPIキーを入れてね！
+  const token = '45b111696e6966'; // ← ここにipinfo.ioのAPIキーを入れてね！
 
   if (!ip) {
     alert('IPアドレスを入力してください');
