@@ -1,0 +1,39 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.map {
+  flex: 2;
+}
+
+.info-panel {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+}
+
+.info {
+  font-size: 14px;
+}
