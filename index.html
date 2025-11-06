@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>IPロケーションマップ</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="map" class="map"></div>
+    <div class="info-panel">
+      <div class="form">
+        <input type="text" id="ipInput" placeholder="IPアドレスを入力">
+        <button onclick="lookupIP()">検索</button>
+      </div>
+      <div id="info" class="info"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
